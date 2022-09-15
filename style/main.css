@@ -1,0 +1,79 @@
+:root{
+
+	font: 'Lato', sans-serif;
+}
+.container{
+	max-width: 1700px;
+	margin: 0px auto;
+}
+.name__of__phoneBook{
+	margin-top: 100px;
+	padding-bottom: 50px;
+}
+.name__of__phoneBook>h2{
+	font-style: normal;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: var(--font);
+}
+.form__phoneBook{
+	background-color: #23aee8;
+	max-width: 350px;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	margin: 0px auto;
+}
+
+.name__form,.phone__form,.mail__form{
+	font-size: 18px;
+	font-family: var(--font);
+	font-weight: normal;
+
+
+}
+.formForm__phoneBook>input{
+	border: none;
+	border-radius: 20px;
+	height: 20px;
+	font-size: 18px;
+
+}
+.btn__form__phoneBook{
+	margin-top: 30px;
+}
+.btn__form__phoneBook{
+	display: flex;
+	justify-content: center;
+}
+.btn__form__phoneBook>input{
+	width: 200px;
+	height: 25px;
+	font-size: 18px;
+	font-family: var(--font);
+	border-radius: 25px;
+
+}
+.info__phoneBook{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+.surname__info,.phone__info,.mail__info{
+	margin-left: 200px;
+	
+}
+.name__info>h5,.surname__info>h5,.phone__info>h5,.mail__info>h5{
+
+	font-size: 18px;
+	font-family: var(--font);
+
+}
+.info>li{
+	font-size: 18px;
+	font-family: var(--font);
+	font-weight: normal;
+	list-style-type: none;
+
+}

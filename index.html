@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./style/main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<section class="phone__book">
+		
+		<div class="container">
+			
+
+			<div class="name__of__phoneBook">
+				
+				<h2>phone book</h2>
+
+			</div><!--name__of__phoneBook-->
+			<div class="programm__phoneBook">
+				
+				<div class="form__phoneBook">
+					
+					<form class="formForm__phoneBook" onsubmit="return func()" method="post">
+						
+						<p class="name__form">Name</p>
+						<input id="name" type="text">
+						<p class="surname__form">Surname</p>
+						<input id="surname" type="text">
+						<p class="phone__form">Phone</p>
+						<input id="phone" type="phone">
+						<p class="mail__form">Email</p>
+						<input id="mail" type="text">
+						<div class="btn__form__phoneBook">
+						<input id="btn" type="submit" value="Отправить">
+					</div><!--btn__form__phoneBook-->
+					<p id="text"></p>
+					</form><!--form-->
+
+				</div><!--form__phoneBook-->
+				<div class="info__phoneBook">
+					
+						<div class="name__info">
+							
+							<h5>Name</h5>
+							<ul class=" info menu">
+								
+								
+
+							</ul>
+
+						</div><!--name__info-->
+						<div class="surname__info">
+							
+							<h5>Surname</h5>
+							<ul class=" info menu1" >
+						
+								
+							</ul>
+
+
+						</div><!--surname__info-->
+						<div class="phone__info">
+							
+							<h5>Phone</h5>
+							<ul class=" info menu2">
+								
+								
+
+							</ul>
+
+						</div><!--phone__info-->
+						<div class="mail__info">
+							
+							<h5>Email</h5>
+							<ul class="info menu3">
+								
+								
+
+							</ul>
+
+						</div><!--mail__info-->
+
+
+				</div><!--info__phoneBook-->
+
+			</div><!--programm__phoneBook-->
+
+		</div><!--container-->
+
+
+	</section><!--phone__book-->
+	
+	<script src="./js/main.js"></script>
+</body>
+</html>
